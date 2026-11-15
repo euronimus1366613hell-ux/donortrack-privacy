@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DonorTrack — Видалення акаунта та даних</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+    h1 { color: #e040a0; }
+    h2 { color: #333; margin-top: 32px; }
+    nav a { margin-right: 16px; }
+    footer { margin-top: 40px; font-size: 14px; color: #666; }
+  </style>
+</head>
+<body>
+  <nav><a href="home.html">Про DonorTrack</a><a href="index.html">Політика конфіденційності</a></nav>
+
+  <h1>Видалення акаунта та даних DonorTrack</h1>
+  <p>Ця сторінка стосується застосунку <strong>DonorTrack</strong> (Google Play: <code>ua.donortrack</code>) — щоденника донора крові.</p>
+  <p>Акаунт у DonorTrack з'являється лише якщо ви увійшли через Google. Без входу всі дані зберігаються тільки на вашому телефоні — див. розділ «Дані на телефоні» нижче.</p>
+
+  <h2>Спосіб 1. У застосунку (миттєво)</h2>
+  <ol>
+    <li>Відкрийте DonorTrack → вкладка «Профіль» → «Акаунт».</li>
+    <li>Натисніть «Видалити акаунт» і підтвердьте.</li>
+    <li>Google попросить ще раз обрати акаунт — це підтвердження, що видалення запитуєте саме ви.</li>
+  </ol>
+
+  <h2>Спосіб 2. Запит електронною поштою</h2>
+  <p>Якщо застосунку вже немає на телефоні, напишіть на <a href="mailto:ua.donortrack@gmail.com?subject=%D0%92%D0%B8%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B0%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0%20DonorTrack">ua.donortrack@gmail.com</a> з темою «Видалення акаунта DonorTrack» <strong>з тієї адреси Gmail, через яку ви входили в застосунок</strong>. Ми видалимо акаунт і дані в хмарі протягом 30 днів і повідомимо вас у відповідь.</p>
+
+  <h2>Що видаляється</h2>
+  <ul>
+    <li>Акаунт DonorTrack (запис входу в Firebase Authentication: ідентифікатор, email, ім'я, посилання на фото Google).</li>
+    <li>Усі дані в хмарі: профіль і всі записи донацій, включно з позначками видалених донацій.</li>
+    <li>Копії фото в прихованій папці DonorTrack на вашому Google Drive — при видаленні в застосунку (спосіб 1). При запиті поштою (спосіб 2) ми не маємо доступу до вашого Google Drive, тож видаліть їх самостійно: Google Drive → Налаштування → Керування застосунками → DonorTrack → Видалити приховані дані.</li>
+    <li>Доступ застосунку до вашого акаунта Google відкликається (при видаленні в застосунку). Також це можна зробити на <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
+  </ul>
+  <p>Після видалення ми не зберігаємо жодних копій цих даних.</p>
+
+  <h2>Дані на телефоні</h2>
+  <p>Видалення акаунта <strong>не стирає</strong> дані на вашому телефоні — застосунок і далі працює без акаунта. Щоб стерти й їх, у застосунку оберіть «Профіль → Видалити профіль» або видаліть застосунок з телефону.</p>
+
+  <h2>Видалити лише частину даних</h2>
+  <p>Окремі донації та фото можна видалити в застосунку — зміни синхронізуються з хмарою. Копії фото в Google Drive можна вимкнути перемикачем «Фото в Google Drive» на екрані «Акаунт».</p>
+
+  <footer>DonorTrack · <a href="home.html">Про застосунок</a> · <a href="index.html">Політика конфіденційності</a> · <a href="mailto:ua.donortrack@gmail.com">ua.donortrack@gmail.com</a></footer>
+</body>
+</html>
